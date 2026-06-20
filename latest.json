@@ -1,7 +1,7 @@
-{
-    "version":  "3.2.9",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.2.9",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.2.9/SunriseCapture_Setup.exe",
-    "sha256":  "D55EDF59DFDCDF0420AA6B7EC4372DA3163B71E4EC949736F323F0F17E24FD05",
-    "release_notes":  "GitHub Release 고정 태그 방식을 중단하고, 버전별 태그(v0.0.0 형식)로 릴리즈와 latest.json을 생성하도록 되돌렸습니다. 다중 영역 크기 일괄 수정 완료 알림창 최상단 표시 수정은 유지됩니다."
+﻿{
+    "version":  "3.3.1",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.1",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.1/SunriseCapture_Setup.exe",
+    "sha256":  "F7E5F7F189175C11A8741A564C365179D5142B93DC3661EB6BCE0A8B4ED700CF",
+    "release_notes":  "v3.3.1: 빌드된 EXE self-test가 PyInstaller 번들 내부의 runtime.py 원본 파일을 직접 읽으려다 실패하던 문제를 수정했습니다. 설명서 실행 경로는 내부 Qt 창 전용으로 유지하며, 3.2.5 등 이전 설치본에서 남을 수 있는 오래된 바로가기 정리도 유지됩니다."
 }

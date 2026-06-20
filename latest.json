@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.2.4",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/sunrise",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/latest/download/SunriseCapture_Setup.exe",
-    "sha256":  "99CA1EFA5C70603B49A36F1E87D7B0839B10E0288280EA12E4C1E1BF909C6D77",
-    "release_notes":  "설치 프로그램 한국어 표기는 Korean.isl 기반으로 적용합니다. 빌드 전에 Inno Setup Languages 폴더의 Korean.isl 존재 여부를 검사하도록 보강했습니다. 설정 창 비모달 처리, 업데이트 버전 숫자 표기, 업데이트 안정성 보강은 유지됩니다."
+    "version":  "3.2.5",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/Sunrise_Capture",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/Sunrise_Capture/SunriseCapture_Setup.exe",
+    "sha256":  "E74FF8F755D29AA4F825C544C4CD9D61306ECF16C90E625C100E9D1EBEE2F3AB",
+    "release_notes":  "GitHub Release 태그를 Sunrise_Capture로 고정하고 download_url을 /releases/download/Sunrise_Capture/ 구조로 변경했습니다. Inno Setup CustomMessages 누락 오류를 수정하고 setup.iss를 UTF-8로 저장하도록 보강했습니다. Korean.isl 기반 한국어 설치 프로그램 구조는 유지됩니다."
 }

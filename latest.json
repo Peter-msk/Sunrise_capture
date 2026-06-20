@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.3.2",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.2",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.2/SunriseCapture_Setup.exe",
-    "sha256":  "0F676512780E4F96AA035A05452BF045D532D4F9664EEFF8E24E8D84956C8673",
-    "release_notes":  "v3.3.2: 자동 업데이트 검증용 테스트 빌드입니다. v3.3.1의 self-test 수정, 내부 설명서 창 전용 실행, 이전 설치본 바로가기 정리 안정화 내용을 유지합니다."
+    "version":  "3.3.3",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.3",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.3/SunriseCapture_Setup.exe",
+    "sha256":  "13049375A8208D2F8A99105DA07168BE3D97A43579BD59A4FF6AAF3DC2763C80",
+    "release_notes":  "v3.3.3: 자동 업데이트 설치 전 기존 실행 프로세스를 외부 updater.cmd가 완전히 종료한 뒤 설치를 진행하도록 보강했습니다."
 }

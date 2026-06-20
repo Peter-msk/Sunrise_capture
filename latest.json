@@ -1,7 +1,7 @@
 {
   "version": "3.1.1",
-  "release_url": "https://github.com/Peter-msk/sunrise-capture-update/releases",
-  "download_url": "https://github.com/Peter-msk/sunrise-capture-update/releases/download/v3.1.0/SunriseCapture_Setup.exe",
+  "release_url": "https://github.com/Peter-msk/sunrise-capture-update/releases/tag/v3.1.1",
+  "download_url": "https://github.com/Peter-msk/sunrise-capture-update/releases/download/v3.1.1/SunriseCapture_Setup.exe",
   "sha256": "4004CC83B579CED4585A49843D8B69C563F94F0BC34E531D823F7BE345DFF975",
-  "release_notes": "다중 영역 컨트롤러 토글 및 선택 영역 크기 일괄 수정 기능 이후 업데이트"
+  "release_notes": "다중 영역 컨트롤러 토글 및 선택 영역 크기 일괄 수정 기능 업데이트"
 }

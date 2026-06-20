@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.2.7",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.2.7",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.2.7/SunriseCapture_Setup.exe",
+    "version":  "3.2.8",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.2.8",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.2.8/SunriseCapture_Setup.exe",
     "sha256":  "CCAAB224C065657E7C589A85092C4E2CB96176ADD3CA74B73BC7FF68215E9E89",
     "release_notes":  "GitHub Release 고정 태그 방식을 중단하고, 버전별 태그(v0.0.0 형식)로 릴리즈와 latest.json을 생성하도록 되돌렸습니다. 다중 영역 크기 일괄 수정 완료 알림창 최상단 표시 수정은 유지됩니다."
 }

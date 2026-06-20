@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.2.6",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/Sunrise_Capture",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/Sunrise_Capture/SunriseCapture_Setup.exe",
-    "sha256":  "78356E53D392A69D10E84D95BFDC61D8F77EB14789702ECD5F76D08AE594EF80",
-    "release_notes":  "다중 영역 크기 일괄 수정 완료 알림창이 선택 영역 화면 뒤로 숨어 앱이 멈춘 것처럼 보이는 문제를 수정했습니다. 완료 알림창은 항상 최상단으로 표시됩니다. GitHub Release 태그 Sunrise_Capture 고정 및 Korean.isl 기반 한국어 설치 프로그램 구조는 유지됩니다."
+    "version":  "3.2.7",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.2.7",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.2.7/SunriseCapture_Setup.exe",
+    "sha256":  "CCAAB224C065657E7C589A85092C4E2CB96176ADD3CA74B73BC7FF68215E9E89",
+    "release_notes":  "GitHub Release 고정 태그 방식을 중단하고, 버전별 태그(v0.0.0 형식)로 릴리즈와 latest.json을 생성하도록 되돌렸습니다. 다중 영역 크기 일괄 수정 완료 알림창 최상단 표시 수정은 유지됩니다."
 }

@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.2.0",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.2.0",
+    "version":  "3.2.4",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.2.4",
     "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/latest/download/SunriseCapture_Setup.exe",
-    "sha256":  "C5199ADD44F689B6F8AEC80E3E9FF749AA2E2A4090DC519A127AE407DB914DE7",
-    "release_notes":  "update 관련 안정성 UI 개선"
+    "sha256":  "99CA1EFA5C70603B49A36F1E87D7B0839B10E0288280EA12E4C1E1BF909C6D77",
+    "release_notes":  "설치 프로그램 한국어 표기는 Korean.isl 기반으로 적용합니다. 빌드 전에 Inno Setup Languages 폴더의 Korean.isl 존재 여부를 검사하도록 보강했습니다. 설정 창 비모달 처리, 업데이트 버전 숫자 표기, 업데이트 안정성 보강은 유지됩니다."
 }

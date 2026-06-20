@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.3.1",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.1",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.1/SunriseCapture_Setup.exe",
-    "sha256":  "F7E5F7F189175C11A8741A564C365179D5142B93DC3661EB6BCE0A8B4ED700CF",
-    "release_notes":  "v3.3.1: 빌드된 EXE self-test가 PyInstaller 번들 내부의 runtime.py 원본 파일을 직접 읽으려다 실패하던 문제를 수정했습니다. 설명서 실행 경로는 내부 Qt 창 전용으로 유지하며, 3.2.5 등 이전 설치본에서 남을 수 있는 오래된 바로가기 정리도 유지됩니다."
+    "version":  "3.3.2",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.2",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.2/SunriseCapture_Setup.exe",
+    "sha256":  "0F676512780E4F96AA035A05452BF045D532D4F9664EEFF8E24E8D84956C8673",
+    "release_notes":  "v3.3.2: 자동 업데이트 검증용 테스트 빌드입니다. v3.3.1의 self-test 수정, 내부 설명서 창 전용 실행, 이전 설치본 바로가기 정리 안정화 내용을 유지합니다."
 }

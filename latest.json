@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.3.7",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.7",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.7/SunriseCapture_Setup.exe",
-    "sha256":  "B69D13FAF44F93FE77765ADFAE6527217741B96E0F54F2123BFBB1236F65239D",
-    "release_notes":  "v3.3.7: 다중 영역 크기 일괄 수정 완료 알림을 비차단 토스트로 변경하고, 전용 크기 선택 오버레이로 Qt 객체 삭제 오류를 방지했습니다."
+    "version":  "3.5.0",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.5.0",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.5.0/SunriseCapture_Setup.exe",
+    "sha256":  "46A29260C2CD2FAD020185662589F732AE850601D2BBFD656440E2A99D28E77E",
+    "release_notes":  "v3.5.0: PyArmor obfuscation build was removed until a license is purchased. The standard PyInstaller/Inno build remains, and the main UI was compacted for better balance between buttons, icons, and the overall window size."
 }

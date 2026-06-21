@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.3.4",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.4",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.4/SunriseCapture_Setup.exe",
-    "sha256":  "2799BE4691D828EA3FE6298F27752C964A2BA92E163B2D29A39ABFA37E9C99B9",
-    "release_notes":  "v3.3.4: 자동 업데이트 흐름을 유지하면서 URL 안전화, 바로가기/프로세스 진단 로그, 업데이트 전 자동 종료 처리를 강화했습니다."
+    "version":  "3.3.5",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.3.5",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.3.5/SunriseCapture_Setup.exe",
+    "sha256":  "649E91D31DEF198C05847C96600400F69BFAF898E987ACA66F2383B0CF6FECAF",
+    "release_notes":  "v3.3.5: 업데이트 헬퍼의 tasklist/find 대기 루프를 제거하고 숨김 PowerShell 헬퍼가 기존 앱 종료 후 설치를 진행하도록 수정했습니다."
 }

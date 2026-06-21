@@ -1,7 +1,7 @@
 ﻿{
-    "version":  "3.5.0",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.5.0",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.5.0/SunriseCapture_Setup.exe",
-    "sha256":  "46A29260C2CD2FAD020185662589F732AE850601D2BBFD656440E2A99D28E77E",
-    "release_notes":  "v3.5.0: PyArmor obfuscation build was removed until a license is purchased. The standard PyInstaller/Inno build remains, and the main UI was compacted for better balance between buttons, icons, and the overall window size."
+    "version":  "3.5.1",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.5.1",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.5.1/SunriseCapture_Setup.exe",
+    "sha256":  "81555CE362644B27D85A1266F90D013760DC32632DBAB1D4C8D8C5F3D0D7BB43",
+    "release_notes":  "v3.5.1: Fixed MainWindow Qt inheritance after the runtime module split. MainWindowBase now inherits QMainWindow, resolving the startup AttributeError for setWindowTitle while keeping the no-obfuscation standard PyInstaller/Inno build."
 }

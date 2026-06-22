@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "3.5.6",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.5.6",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.5.6/SunriseCapture_Setup.exe",
-    "sha256":  "6D92A7D84A34B453396107F22A50E2EEA805828AE4F72D961AEBF58070C8BE4D",
-    "release_notes":  "v3.5.6: 자체 코드서명 적용을 위해 빌드 과정에서 Sunrise Capture 실행파일과 설치파일에 자체 서명 인증서로 Authenticode 서명을 적용하도록 개선했습니다. 서명용 공개 인증서와 보안팀 제출용 안내 파일을 자동 생성하며, 기존 공지사항, 문의사항, 다중 모니터 플로우 액션바 개선 기능은 그대로 유지합니다.",
+    "version":  "3.6.0",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.0",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.0/SunriseCapture_Setup.exe",
+    "sha256":  "2CE5F43D0DB9E4BB69FAE8AB60E7C6930F9EED8DABB47ED35760A5B9D9F6AF30",
+    "release_notes":  "v3.6.0 Fix: 업데이트 후 단축키와 저장 경로 등 사용자 설정을 보존하되, settings.json을 비실행성 설정 데이터로만 취급하도록 설정 스키마 버전, 허용 키 목록, 저장 경로, 공지/업데이트 URL, 단축키, 손상 설정 자동 백업·복구 로직을 보강했습니다. AppData에는 EXE/DLL/스크립트를 보존하거나 실행하지 않으며, 기존 v3.6.0 R2의 UI 크기 보정, 최근 항목 20개, 문의 작성창, 자체 코드서명, SecurityTrustPackage 기능은 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "3.6.1",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.1",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.1/SunriseCapture_Setup.exe",
-    "sha256":  "1BA0CAC75A5137ED6DD31AD763588C3442E5BEE3C81DA73B23311D2870EDD68F",
-    "release_notes":  "v3.6.1 R2: 기능 버튼 크기 복원, 공지사항 배너 확성기 아이콘, 하단 10초 회전형 기능 팁을 유지하면서, source self-test의 버전 기준을 v3.6.1로 정렬해 exit code 39를 수정했습니다. 최근 항목 20개, 설정 유지, 문의 작성창, 자체 코드서명, SecurityTrustPackage 기능은 계속 유지합니다.",
+    "version":  "3.6.4",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.4",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.4/SunriseCapture_Setup.exe",
+    "sha256":  "C6500C6760E13EA467EE4D010254078853775C8FFA098F7C5701697B01D99EF3",
+    "release_notes":  "v3.6.4 R6: 경로에 공백이 포함된 환경(F:\\AI Project 등)에서 PyInstaller 인자가 분리되어 실패하는 문제를 수정했습니다. Start-Process에 전달하는 Python/PyInstaller 인자를 안전하게 인용 처리하며, R5의 UI 카드 겹침 보완과 R4의 Inno Setup 안정화 정책은 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

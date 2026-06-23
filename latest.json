@@ -1,8 +1,8 @@
 ﻿{
-    "version":  "3.6.4",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.4",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.4/SunriseCapture_Setup.exe",
-    "sha256":  "C6500C6760E13EA467EE4D010254078853775C8FFA098F7C5701697B01D99EF3",
-    "release_notes":  "v3.6.4 R6: 경로에 공백이 포함된 환경(F:\\AI Project 등)에서 PyInstaller 인자가 분리되어 실패하는 문제를 수정했습니다. Start-Process에 전달하는 Python/PyInstaller 인자를 안전하게 인용 처리하며, R5의 UI 카드 겹침 보완과 R4의 Inno Setup 안정화 정책은 유지합니다.",
+    "version":  "3.6.5",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.5",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.5/SunriseCapture_Setup.exe",
+    "sha256":  "9C6BE28F000C1F3216B3B03147D21136E089160A773CAC68DD70665F9C5F4128",
+    "release_notes":  "v3.6.5: 좌측 메뉴 순서를 공지사항 중심으로 재정렬하고, 설정/문의 페이지를 통합했습니다. 캡처 그룹 폭과 모니터 버튼형 선택 UI, 최근 항목 목록 높이, 공지 문구, 상용화 지향 기능 설명 문구를 개선했습니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

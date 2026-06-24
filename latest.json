@@ -1,8 +1,17 @@
 ﻿{
-    "version":  "3.6.5",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.5",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.5/SunriseCapture_Setup.exe",
-    "sha256":  "9C6BE28F000C1F3216B3B03147D21136E089160A773CAC68DD70665F9C5F4128",
-    "release_notes":  "v3.6.5: 좌측 메뉴 순서를 공지사항 중심으로 재정렬하고, 설정/문의 페이지를 통합했습니다. 캡처 그룹 폭과 모니터 버튼형 선택 UI, 최근 항목 목록 높이, 공지 문구, 상용화 지향 기능 설명 문구를 개선했습니다.",
+    "version":  "3.6.8",
+    "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
+    "product_family":  "Sunrise Capture",
+    "publisher_id":  "SUNRISE-SOFTWARE",
+    "channel":  "stable",
+    "platform":  "windows-desktop",
+    "security_profile":  "ENTERPRISE_SAFE_UPDATE_POLICY",
+    "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
+    "runtime_powershell_policy":  "DISABLED",
+    "runtime_registry_write_policy":  "DISABLED",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.8",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.8/SunriseCapture_Setup.exe",
+    "sha256":  "5AD1DD335625D878810879274552807BF629EE8CDFF873F72DEB20809DE044F4",
+    "release_notes":  "v3.6.8: v3.6.7 R2의 Product Identity Manifest, V3 제품군 검토 정책, PowerShell/Registry 미사용 정책, built EXE self-test 수정을 유지하면서 메인 화면, 좌측 패널, 기능 카드, 하단 안내바의 상용화 UI/UX 밀도와 여백을 개선했습니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

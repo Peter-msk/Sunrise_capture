@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "3.6.8",
+    "version":  "3.7.0",
     "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
     "product_family":  "Sunrise Capture",
     "publisher_id":  "SUNRISE-SOFTWARE",
@@ -9,9 +9,9 @@
     "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
     "runtime_powershell_policy":  "DISABLED",
     "runtime_registry_write_policy":  "DISABLED",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.6.8",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.6.8/SunriseCapture_Setup.exe",
-    "sha256":  "5AD1DD335625D878810879274552807BF629EE8CDFF873F72DEB20809DE044F4",
-    "release_notes":  "v3.6.8: v3.6.7 R2의 Product Identity Manifest, V3 제품군 검토 정책, PowerShell/Registry 미사용 정책, built EXE self-test 수정을 유지하면서 메인 화면, 좌측 패널, 기능 카드, 하단 안내바의 상용화 UI/UX 밀도와 여백을 개선했습니다.",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.0",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.0/SunriseCapture_Setup.exe",
+    "sha256":  "3B263C45A2B52975E9E51E0247DB62B6F304CB7E24102B88EC96B8CDDC016A58",
+    "release_notes":  "v3.7.0: v3.6.9 R2의 실사용 편의성과 한글 파일명 규칙을 유지하면서 캡처 후 빠른 작업, 최근 항목, 설정 백업/복원, 빠른 편집 흐름을 안정화한 최종 배포 버전입니다. 스크롤 캡처는 품질 보완 후 다음 기능 업데이트에서 제공할 예정입니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

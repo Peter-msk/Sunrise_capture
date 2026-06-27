@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "3.7.1",
+    "version":  "3.7.2",
     "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
     "product_family":  "Sunrise Capture",
     "publisher_id":  "SUNRISE-SOFTWARE",
@@ -9,9 +9,9 @@
     "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
     "runtime_powershell_policy":  "DISABLED",
     "runtime_registry_write_policy":  "DISABLED",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.1",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.1/SunriseCapture_Setup.exe",
-    "sha256":  "2AECBBF443A46D4551B755E1877CB293E15EDE8B3A66C536309E0AF0057AA336",
-    "release_notes":  "v3.7.1: 공식 SC 모노그램 아이콘을 EXE, 업데이트 도우미, 설치파일, 앱 내부 대표 아이콘에 반영한 안정화 배포 버전입니다. 기존 캡처, 녹화, 이미지 추출, 최근 항목, 빠른 편집 흐름은 유지됩니다. 스크롤 캡처는 품질 보완 후 다음 기능 업데이트에서 제공할 예정입니다.",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.2",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.2/SunriseCapture_Setup.exe",
+    "sha256":  "EA3D211577B2447BA301870D3C1342A7EFD6CA4DEA8142DA39B619D05EFC694C",
+    "release_notes":  "v3.7.2: 좌측 패널과 기능 카드의 여백·비율을 조정하고, 사용자가 직접 선택할 수 있는 Windows 시작 시 자동 실행 옵션을 복원했습니다. EXE, 설치파일, 바로가기, 시작프로그램 바로가기 아이콘은 공식 SC 아이콘 기준으로 통일했습니다. 스크롤 캡처는 품질 보완 전까지 정식 UI에서 숨김 상태를 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

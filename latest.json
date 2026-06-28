@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "3.7.4",
+    "version":  "3.7.5",
     "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
     "product_family":  "Sunrise Capture",
     "publisher_id":  "SUNRISE-SOFTWARE",
@@ -9,9 +9,9 @@
     "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
     "runtime_powershell_policy":  "DISABLED",
     "runtime_registry_write_policy":  "DISABLED",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.4",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.4/SunriseCapture_Setup.exe",
-    "sha256":  "08B525DE70022A5820A6E3984678F01D996D7CE0CA85086595C49BB352A3F838",
-    "release_notes":  "v3.7.4: 바탕화면/시작메뉴/시작프로그램/설치파일/앱 창/트레이/브랜드 영역의 아이콘 경로를 공식 SC 모노그램 아이콘으로 전면 재고정했습니다. 바로가기는 공식 아이콘 asset을 명시적으로 사용합니다. v3.7.3 캡처 페이지 레이아웃 수정과 필수 Authenticode 코드서명, 런타임 PowerShell/Registry 직접 수정 금지 정책은 유지합니다.",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.5",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.5/SunriseCapture_Setup.exe",
+    "sha256":  "96AD082B7587E40EAB0B22F206194F65EBB40A6CAA002886790605E7DEEE9C6E",
+    "release_notes":  "v3.7.5: Sunrise 그룹 공식 프로그램 설치 구조를 반영했습니다. 설치 기본 경로는 Program Files\\Sunrise Group\\Sunrise Capture이며, 시작 메뉴 그룹도 Sunrise Group\\Sunrise Capture 하위로 생성됩니다. 이미 Sunrise Group 폴더가 있으면 그 하위에 Sunrise Capture만 추가됩니다. v3.7.4 공식 SC 아이콘 전면 적용, 필수 Authenticode 코드서명, Runtime PowerShell/Registry 직접 수정 금지 정책은 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

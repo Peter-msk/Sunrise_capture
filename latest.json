@@ -11,7 +11,7 @@
     "runtime_registry_write_policy":  "DISABLED",
     "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.2",
     "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.2/SunriseCapture_Setup.exe",
-    "sha256":  "EA3D211577B2447BA301870D3C1342A7EFD6CA4DEA8142DA39B619D05EFC694C",
-    "release_notes":  "v3.7.2: 좌측 패널과 기능 카드의 여백·비율을 조정하고, 사용자가 직접 선택할 수 있는 Windows 시작 시 자동 실행 옵션을 복원했습니다. EXE, 설치파일, 바로가기, 시작프로그램 바로가기 아이콘은 공식 SC 아이콘 기준으로 통일했습니다. 스크롤 캡처는 품질 보완 전까지 정식 UI에서 숨김 상태를 유지합니다.",
+    "sha256":  "596BA405CF18D2D802C47C171EF4EED58649B9B14B320536AD280C5840596BA9",
+    "release_notes":  "v3.7.2 R2: 좌측 패널과 기능 카드만 단순 축소하던 구성을 수정하고, 기본 창 크기·좌측 패널 폭·기능 카드 높이·아이콘/텍스트 크기를 함께 재조정해 상용 프로그램형 비율로 보정했습니다. Windows 시작 시 자동 실행 옵션과 공식 SC 아이콘 통일 정책은 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

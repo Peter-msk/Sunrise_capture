@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "3.7.5",
+    "version":  "3.7.6",
     "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
     "product_family":  "Sunrise Capture",
     "publisher_id":  "SUNRISE-SOFTWARE",
@@ -9,9 +9,9 @@
     "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
     "runtime_powershell_policy":  "DISABLED",
     "runtime_registry_write_policy":  "DISABLED",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.5",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.5/SunriseCapture_Setup.exe",
-    "sha256":  "96AD082B7587E40EAB0B22F206194F65EBB40A6CAA002886790605E7DEEE9C6E",
-    "release_notes":  "v3.7.5: Sunrise 그룹 공식 프로그램 설치 구조를 반영했습니다. 설치 기본 경로는 Program Files\\Sunrise Group\\Sunrise Capture이며, 시작 메뉴 그룹도 Sunrise Group\\Sunrise Capture 하위로 생성됩니다. 이미 Sunrise Group 폴더가 있으면 그 하위에 Sunrise Capture만 추가됩니다. v3.7.4 공식 SC 아이콘 전면 적용, 필수 Authenticode 코드서명, Runtime PowerShell/Registry 직접 수정 금지 정책은 유지합니다.",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.6",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.6/SunriseCapture_Setup.exe",
+    "sha256":  "36195426BE2BE0502A3DD87F10984F7F23F9EE7A2966680C18CBCF153714C37B",
+    "release_notes":  "v3.7.6: 좌측 상단 브랜드명이 잘리지 않도록 사이드바와 브랜드 텍스트 영역을 보강하고, 기능 버튼 묶음 패널을 화이트 작업 표면과 구분되는 블루그레이 톤으로 분리했습니다. 기존 대시보드 레이아웃 감사 기준, 기능 카드 설명문구 2~3줄 표시, 캡처 탭 카드/모니터 선택 영역 분리, 페이지 안전 스크롤, 진단 정보와 사용자 확인 가능 로그의 내부 배포 URL 마스킹을 유지합니다. Sunrise Group 설치 구조, 공식 SC 아이콘, 필수 Authenticode 코드서명, Runtime PowerShell/Registry 직접 수정 금지 정책은 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

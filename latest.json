@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "3.7.6",
+    "version":  "3.7.7",
     "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
     "product_family":  "Sunrise Capture",
     "publisher_id":  "SUNRISE-SOFTWARE",
@@ -9,9 +9,9 @@
     "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
     "runtime_powershell_policy":  "DISABLED",
     "runtime_registry_write_policy":  "DISABLED",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.6",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.6/SunriseCapture_Setup.exe",
-    "sha256":  "36195426BE2BE0502A3DD87F10984F7F23F9EE7A2966680C18CBCF153714C37B",
-    "release_notes":  "v3.7.6: 좌측 상단 브랜드명이 잘리지 않도록 사이드바와 브랜드 텍스트 영역을 보강하고, 기능 버튼 묶음 패널을 화이트 작업 표면과 구분되는 블루그레이 톤으로 분리했습니다. 기존 대시보드 레이아웃 감사 기준, 기능 카드 설명문구 2~3줄 표시, 캡처 탭 카드/모니터 선택 영역 분리, 페이지 안전 스크롤, 진단 정보와 사용자 확인 가능 로그의 내부 배포 URL 마스킹을 유지합니다. Sunrise Group 설치 구조, 공식 SC 아이콘, 필수 Authenticode 코드서명, Runtime PowerShell/Registry 직접 수정 금지 정책은 유지합니다.",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.7",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.7/SunriseCapture_Setup.exe",
+    "sha256":  "51DA2F2F07C3CE140DF661E98F00286F813F7F0A46876242B1DB69AF767FFE5F",
+    "release_notes":  "v3.7.7 R2: 녹화 중지 후 완료 알림을 이벤트 루프 복귀 뒤 확실히 표시합니다. 모든 QMessageBox는 표시 전에 숨은 부모창에서 분리하고, 선택영역·오버레이의 마우스/키보드 grab을 해제하며, 경쟁 topmost 창을 임시 마우스 투과 처리한 뒤 Windows 네이티브 최상위로 승격합니다. 녹화 품질 5단계와 편집 색상/굵기 저장 기능은 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

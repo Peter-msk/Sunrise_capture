@@ -1,5 +1,5 @@
 ﻿{
-    "version":  "3.7.7",
+    "version":  "3.8.0",
     "product_id":  "SUNRISE-CAPTURE-WIN-DESKTOP",
     "product_family":  "Sunrise Capture",
     "publisher_id":  "SUNRISE-SOFTWARE",
@@ -9,9 +9,9 @@
     "update_policy":  "NO_POWERSHELL_NO_RUNTIME_REGISTRY",
     "runtime_powershell_policy":  "DISABLED",
     "runtime_registry_write_policy":  "DISABLED",
-    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.7.7",
-    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.7.7/SunriseCapture_Setup.exe",
-    "sha256":  "51DA2F2F07C3CE140DF661E98F00286F813F7F0A46876242B1DB69AF767FFE5F",
-    "release_notes":  "v3.7.7 R2: 녹화 중지 후 완료 알림을 이벤트 루프 복귀 뒤 확실히 표시합니다. 모든 QMessageBox는 표시 전에 숨은 부모창에서 분리하고, 선택영역·오버레이의 마우스/키보드 grab을 해제하며, 경쟁 topmost 창을 임시 마우스 투과 처리한 뒤 Windows 네이티브 최상위로 승격합니다. 녹화 품질 5단계와 편집 색상/굵기 저장 기능은 유지합니다.",
+    "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.8.0",
+    "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.8.0/SunriseCapture_Setup.exe",
+    "sha256":  "75165D4EC95DD49831C510EB829FBF09256F1F0117E8FCE4B8AE8BE14FC51E2F",
+    "release_notes":  "v3.8.0: 영역 캡처·반복 캡처·JPG 저장·영역 녹화·다중영역을 독립 워크플로로 분리하고, 좁은 영역에서도 사라지지 않는 분리형 도구막대를 적용했습니다. 이미지 추출 기능과 중복 메뉴를 제거하고 홈·캡처·설정/문의 UI와 설명서를 전면 정리했습니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"
 }

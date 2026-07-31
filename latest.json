@@ -16,9 +16,9 @@
     "release_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/tag/v3.9.6",
     "download_url":  "https://github.com/Peter-msk/Sunrise_capture/releases/download/v3.9.6/SunriseCapture_Setup.exe",
     "download_file_name":  "SunriseCapture_Setup.exe",
-    "file_size_bytes":  82235488,
+    "file_size_bytes":  82235616,
     "updater_engine":  "signed-exe-only-v3.9.6",
-    "sha256":  "96c890fedd7e5377fa7def9eca3441ccb10bd97c08f01c01d2f87580b2a5a58b",
+    "sha256":  "e7770da2edb6765012bb6381fbe184f8a0d6c686e8a558b4808f281965df7fbd",
     "release_date":  "2026-07-31",
     "release_notes":  "v3.9.6: 플로우 이미지 모두 닫기, 클릭 가능한 영역 녹화 제어창, 반응형 기능 카드·모니터 UI, 다중영역·스크롤 사용자 지정 해상도를 반영했습니다. 공지사항은 기존 notice 직접조회 방식을 유지합니다.",
     "notice_url":  "https://peter-msk.github.io/Sunrise_capture/notice.txt"

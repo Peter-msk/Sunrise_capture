@@ -1,5 +1,9 @@
 # Sunrise Capture
 
+![Version](https://img.shields.io/badge/version-4.2.0-1668c7)
+![플랫폼](https://img.shields.io/badge/platform-Windows%2010%2F11-0078D4)
+![Python](https://img.shields.io/badge/Python-3.1.2-1668c7)
+
 > 업무 화면을 빠르게 캡처하고, 필요한 부분을 편집·저장·공유할 수 있도록 설계한 Windows 화면 캡처 및 영역 녹화 도구
 
 ## 1. 프로그램 소개

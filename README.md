@@ -1,62 +1,52 @@
 # Sunrise Capture
 
-**개발 기준본: v4.2.1** · **현재 공개 설치본: v4.2.0** · Windows 10/11 x64
+**최신 정식 릴리즈: v4.2.1 (2026-10-28)** · Windows 10/11 x64 · 설치형
 
-Sunrise Group의 업무용 화면 캡처·녹화·편집 프로그램입니다. 보고서 작성, 오류 기록, 업무 매뉴얼 제작, UI 변경 전후 검증 등에서 사용할 수 있습니다.
+Sunrise Capture는 보고서 작성, 업무 매뉴얼 제작, 오류 기록, 자료 검토 등에서 화면을 캡처·녹화·편집하고 관리하는 Sunrise Group의 데스크톱 프로그램입니다.
 
-> **배포 상태 (2026-10-28):** v4.2.1은 소스 검증을 완료한 개발·인계 기준본이며, **Windows 실빌드/설치 검증 및 v4.2.1 설치본 배포는 아직 완료되지 않았습니다.** 현재 공개 설치본과 `latest.json`은 v4.2.0입니다. Sunrise Control v1의 `sunrise_capture` 정책은 `operation=allow`, `update=block`으로 **업데이트가 중지**되어 있습니다. 이 README/공지 갱신은 자동 업데이트나 배포를 시작하지 않습니다.
+[**v4.2.1 다운로드 및 릴리즈 안내**](https://github.com/Peter-msk/Sunrise_capture/releases/tag/v4.2.1) · [공지사항](https://github.com/Peter-msk/Sunrise_capture/blob/main/notice.txt)
+
+## v4.2.1 주요 업데이트
+
+- **전후 화면 비교:** 동일 화면 영역을 두 번 캡처하여 나란히 배치하고 변화 영역을 표시합니다. UI 수정 전후 확인, 오류 증빙, 업무 보고에 활용할 수 있습니다.
+- **비차단 오류 안내:** 일반 캡처 오류가 발생했을 때 모달 확인창이 작업을 막지 않도록 안내와 화면 복구 절차를 개선했습니다.
+- **Sunrise Control v1 정책 재점검:** 실행·업데이트 제어, 네트워크 장애 시 캐시·기본 정책 처리의 정합성을 보완했습니다.
+- **빌드·보안 체계 유지:** PowerShell/PS1을 사용하지 않는 CMD + Python 빌드, 서명 및 SHA-256 무결성 확인, 설치형 업데이트 계약을 유지했습니다.
 
 ## 주요 기능
 
-- 영역·반복 영역·다중영역·전체 화면·모니터별·활성 창 캡처
-- 스크롤 캡처 및 영역 MP4 녹화
-- **전후 화면 비교:** 동일 영역의 변경 전후 이미지를 나란히 배치하고 변화 영역을 강조 (v4.2.1 개발 기준본에 포함)
-- 이미지 편집: 펜·도형·화살표·텍스트·형광펜·모자이크, 되돌리기/다시실행
-- 클립보드 복사, JPG 저장, 최근 항목·플로우 이미지·작업 복구
-- 일반 캡처 오류의 **비모달 안내** 및 작업 화면 복구
-
-## v4.2.1 개발 기준본 변경사항
-
-1. 제품 버전 식별자를 **4.2.1**로 통일했습니다(본체·Updater·설치 패키징 템플릿 및 소스 검증 기준).
-2. Control v1 / revision 2와 정합되도록 **오프라인·유효 캐시 없음 상태의 업데이트 기본값을 `block`**으로 변경했습니다.
-3. 전후 화면 비교 기능과 일반 오류의 비차단 알림을 유지했습니다.
-4. PowerShell/PS1을 사용하지 않는 **CMD + Python 빌드** 구조 및 검증 완료된 소스 검사 재사용 정책을 유지합니다.
-5. 소스 검증 **267 tests(실패 0, 오류 0, 환경 skip 1)** 및 Release validator **253/253 PASS**. **Windows 4.2.1 실빌드·설치·GUI 검증은 PENDING**입니다.
-
-## Windows 환경과 개발 검증
-
-| 구분 | 기준 |
+| 분류 | 제공 기능 |
 | --- | --- |
-| 운영체제 | Windows 10 / 11 x64 |
-| 공개 설치본 | [v4.2.0 Release](https://github.com/Peter-msk/Sunrise_capture/releases/tag/v4.2.0) |
-| 개발 소스 버전 | v4.2.1 (Windows 동적 Gate 진행 전) |
-| 빌드 셸 | CMD-only (PowerShell/PS1 미사용) |
-| 개발 소스 Windows 빌드 진입점 | `BUILD.cmd Release /noninteractive` |
-| 설치/실행 검증 진입점 | `scripts\\RUN_WINDOWS_VALIDATION.cmd /noninteractive` |
-| 중앙 운영정책 | Control v1/revision 2, 실행 허용·업데이트 차단 |
+| 기본 화면 캡처 | 지정 영역, 반복 영역, 전체 화면, 활성 창, 모니터 선택 |
+| 복합 캡처 | 다중영역 캡처, 스크롤 캡처, JPG 바로 저장 |
+| 전후 화면 비교 | 동일 영역 변경 전·후 비교 및 변화 부분 표시 |
+| 화면 녹화 | 영역 지정 MP4 녹화, 품질 선택, 일시정지/재개 |
+| 이미지 편집 | 펜, 화살표, 도형, 텍스트, 형광펜, 모자이크, 되돌리기 |
+| 결과 관리 | 저장·다른 이름으로 저장·클립보드 복사·최근 항목·플로우 이미지·복구 |
 
-## 설치 및 이용
+## 설치 및 사용
 
-현재 이용 가능한 공식 Windows 설치파일은 [GitHub Releases](https://github.com/Peter-msk/Sunrise_capture/releases)에서 확인할 수 있습니다. v4.2.1 개발 소스 ZIP은 **설치 실행파일이 아니며**, 확인된 Windows Release 빌드와 설치 검증 전에는 새 정식 배포본으로 안내하지 않습니다.
+1. [v4.2.1 정식 릴리즈](https://github.com/Peter-msk/Sunrise_capture/releases/tag/v4.2.1)에서 `SunriseCapture_Setup.exe`를 내려받습니다.
+2. 설치하고 프로그램을 실행합니다.
+3. 필요한 캡처 또는 녹화 기능을 선택하고 대상 영역을 지정합니다.
+4. 결과를 편집하고 파일로 저장하거나 클립보드로 복사합니다.
+5. 기존 사용자에 대한 앱 내 업데이트 알림은 **Sunrise Control의 현재 정책 및 버전 판단**에 따라 적용됩니다.
 
-1. 공식 설치본을 내려받아 설치합니다.
-2. 캡처·녹화 도구를 선택해 업무 화면을 기록합니다.
-3. 필요한 경우 결과를 편집하고 저장·복사합니다.
-4. 정책상 허용되는 경우에만 중앙 Control과 제품 업데이트 계약에 따라 업데이트합니다.
+설치된 프로그램 사용에는 별도 Python 설치가 필요하지 않습니다. Windows 보안 정책이나 일부 보호 화면에 의해 캡처가 제한될 수 있습니다.
 
-## 업데이트 및 보안 정책
+## 업데이트·보안 운영
 
-- 운영 Control: `[product.sunrise_capture] operation=allow / update=block / minimum_version=공란`.
-- 네트워크 장애·유효 캐시 없음 시 기본동작: `operation=allow / update=block`.
-- 중앙 Control이 허용하고 신규 버전이 실제로 제공되는 경우에만 필수 업데이트 UI(업데이트 실행 또는 창 닫기→프로그램 종료)가 적용됩니다.
-- `latest.json`, 공개 릴리즈, 중앙 Control 설정은 **별도 승인 없이 변경하지 않습니다**.
-- 공식 설치 파일은 서명 및 SHA-256 무결성 검증 계약을 따릅니다.
+- 중앙 Control v1은 제품별 `operation`, `update`, `minimum_version`을 통해 실행 및 업데이트 허용 여부를 결정합니다. **운영 정책은 원격 Control 설정을 따르며 수시로 달라질 수 있습니다.**
+- 업데이트가 실제 허용되고 새 버전이 확인되면 프로그램의 업데이트 계약에 따라 처리됩니다.
+- 공식 설치파일의 서명 및 무결성 검증 정책을 유지합니다.
+- 개발용 빌드 진입점은 Windows CMD 기반 `BUILD.cmd Release /noninteractive`이며 PowerShell 스크립트를 사용하지 않습니다.
 
-## 관련 자료
+## 릴리즈 정보
 
-- [현재 공지사항](https://github.com/Peter-msk/Sunrise_capture/blob/main/notice.txt)
-- [공식 릴리즈 목록](https://github.com/Peter-msk/Sunrise_capture/releases)
-- [중앙 Control 정책 저장소](https://github.com/Peter-msk/Sunrise_Control)
+- **현재 공개 배포:** [v4.2.1](https://github.com/Peter-msk/Sunrise_capture/releases/tag/v4.2.1)
+- 설치 파일: `SunriseCapture_Setup.exe`
+- [이전 버전 및 전체 릴리즈](https://github.com/Peter-msk/Sunrise_capture/releases)
+- [업데이트 공지](https://github.com/Peter-msk/Sunrise_capture/blob/main/notice.txt)
 
 ---
 Copyright © 2026 Sunrise Group. All rights reserved.

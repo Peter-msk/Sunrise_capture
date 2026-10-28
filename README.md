@@ -1,52 +1,62 @@
 # Sunrise Capture
 
-**최신 배포 기준: v4.2.0** · Windows 10/11 x64 · 설치형
+**개발 기준본: v4.2.1** · **현재 공개 설치본: v4.2.0** · Windows 10/11 x64
 
-Windows 업무 화면을 캡처·녹화하고 결과를 편집, 저장, 클립보드 복사 및 최근 항목에서 활용할 수 있는 Sunrise Group의 화면 캡처 도구입니다.
+Sunrise Group의 업무용 화면 캡처·녹화·편집 프로그램입니다. 보고서 작성, 오류 기록, 업무 매뉴얼 제작, UI 변경 전후 검증 등에서 사용할 수 있습니다.
 
-## 1. 프로그램 개요
-Sunrise Capture는 보고서 작성, 업무 매뉴얼 제작, 오류 기록, 자료 검토 등에 사용할 화면 자료를 빠르게 수집하는 데스크톱 프로그램입니다. 일반 캡처와 스크롤·다중영역·녹화 작업을 구분하여 제공하고, 결과 편집까지 이어지는 작업 흐름을 지원합니다.
+> **배포 상태 (2026-10-28):** v4.2.1은 소스 검증을 완료한 개발·인계 기준본이며, **Windows 실빌드/설치 검증 및 v4.2.1 설치본 배포는 아직 완료되지 않았습니다.** 현재 공개 설치본과 `latest.json`은 v4.2.0입니다. Sunrise Control v1의 `sunrise_capture` 정책은 `operation=allow`, `update=block`으로 **업데이트가 중지**되어 있습니다. 이 README/공지 갱신은 자동 업데이트나 배포를 시작하지 않습니다.
 
-## 2. 개발 목적
-- 필요한 업무 화면을 최소한의 조작으로 기록합니다.
-- 캡처한 이미지에 설명·표시를 추가하고 바로 활용합니다.
-- 여러 모니터와 다양한 화면 배율에서 일관된 사용경험을 제공합니다.
-- 캡처, 녹화, 편집과 저장을 구분하여 결과를 쉽게 관리합니다.
+## 주요 기능
 
-## 3. 주요 기능
-- 지정 영역, 전체 화면, 활성 창 및 모니터 캡처
-- 반복 영역 캡처와 JPG 바로 저장
-- 여러 화면 영역을 개별 지정하는 다중영역 캡처
-- 긴 웹페이지·문서의 스크롤 캡처
-- 지정 영역의 화면 녹화 및 녹화 품질 선택
-- 펜·도형·화살표·텍스트·형광펜·모자이크 등의 이미지 편집
-- 저장, 다른 이름으로 저장, 클립보드 복사
-- 플로우 이미지 및 최근 캡처 항목 관리
-- 작업 중단과 복구 가능한 결과 확인, 공지·업데이트 확인
+- 영역·반복 영역·다중영역·전체 화면·모니터별·활성 창 캡처
+- 스크롤 캡처 및 영역 MP4 녹화
+- **전후 화면 비교:** 동일 영역의 변경 전후 이미지를 나란히 배치하고 변화 영역을 강조 (v4.2.1 개발 기준본에 포함)
+- 이미지 편집: 펜·도형·화살표·텍스트·형광펜·모자이크, 되돌리기/다시실행
+- 클립보드 복사, JPG 저장, 최근 항목·플로우 이미지·작업 복구
+- 일반 캡처 오류의 **비모달 안내** 및 작업 화면 복구
 
-## 4. 실행조건
-| 항목 | 조건 |
+## v4.2.1 개발 기준본 변경사항
+
+1. 제품 버전 식별자를 **4.2.1**로 통일했습니다(본체·Updater·설치 패키징 템플릿 및 소스 검증 기준).
+2. Control v1 / revision 2와 정합되도록 **오프라인·유효 캐시 없음 상태의 업데이트 기본값을 `block`**으로 변경했습니다.
+3. 전후 화면 비교 기능과 일반 오류의 비차단 알림을 유지했습니다.
+4. PowerShell/PS1을 사용하지 않는 **CMD + Python 빌드** 구조 및 검증 완료된 소스 검사 재사용 정책을 유지합니다.
+5. 소스 검증 **267 tests(실패 0, 오류 0, 환경 skip 1)** 및 Release validator **253/253 PASS**. **Windows 4.2.1 실빌드·설치·GUI 검증은 PENDING**입니다.
+
+## Windows 환경과 개발 검증
+
+| 구분 | 기준 |
 | --- | --- |
-| 운영체제 | Windows 10 또는 Windows 11 |
-| 시스템 | 64비트(x64) |
-| 배포 형식 | Windows Setup EXE |
-| 캡처 대상 | Windows 데스크톱 화면·창·영역 |
-| Python 설치 | 공식 설치본 사용에는 필요 없음 |
+| 운영체제 | Windows 10 / 11 x64 |
+| 공개 설치본 | [v4.2.0 Release](https://github.com/Peter-msk/Sunrise_capture/releases/tag/v4.2.0) |
+| 개발 소스 버전 | v4.2.1 (Windows 동적 Gate 진행 전) |
+| 빌드 셸 | CMD-only (PowerShell/PS1 미사용) |
+| 개발 소스 Windows 빌드 진입점 | `BUILD.cmd Release /noninteractive` |
+| 설치/실행 검증 진입점 | `scripts\\RUN_WINDOWS_VALIDATION.cmd /noninteractive` |
+| 중앙 운영정책 | Control v1/revision 2, 실행 허용·업데이트 차단 |
 
-일부 보호된 화면이나 앱은 운영체제 정책에 따라 캡처가 제한될 수 있습니다.
+## 설치 및 이용
 
-## 5. 설치 및 사용방법
-1. [공식 릴리즈](https://github.com/Peter-msk/Sunrise_capture/releases)에서 Sunrise Capture 설치파일을 내려받고 설치합니다.
-2. 실행 후 필요한 캡처 방식 또는 영역 녹화를 선택합니다.
-3. 마우스로 캡처 영역·창·모니터를 지정하거나 녹화를 시작합니다.
-4. 캡처 결과에 표시·설명이 필요하면 편집 도구를 사용합니다.
-5. 파일로 저장하거나 클립보드에 복사해 보고서·메신저 등에 사용합니다.
-6. 과거 결과는 최근 항목 또는 결과 폴더에서 다시 확인합니다.
+현재 이용 가능한 공식 Windows 설치파일은 [GitHub Releases](https://github.com/Peter-msk/Sunrise_capture/releases)에서 확인할 수 있습니다. v4.2.1 개발 소스 ZIP은 **설치 실행파일이 아니며**, 확인된 Windows Release 빌드와 설치 검증 전에는 새 정식 배포본으로 안내하지 않습니다.
 
-## 6. 최신 버전
-- **현재 배포 메타데이터 기준:** v4.2.0
-- [v4.2.0 릴리즈](https://github.com/Peter-msk/Sunrise_capture/releases/tag/v4.2.0)
-- [전체 릴리즈](https://github.com/Peter-msk/Sunrise_capture/releases)
+1. 공식 설치본을 내려받아 설치합니다.
+2. 캡처·녹화 도구를 선택해 업무 화면을 기록합니다.
+3. 필요한 경우 결과를 편집하고 저장·복사합니다.
+4. 정책상 허용되는 경우에만 중앙 Control과 제품 업데이트 계약에 따라 업데이트합니다.
+
+## 업데이트 및 보안 정책
+
+- 운영 Control: `[product.sunrise_capture] operation=allow / update=block / minimum_version=공란`.
+- 네트워크 장애·유효 캐시 없음 시 기본동작: `operation=allow / update=block`.
+- 중앙 Control이 허용하고 신규 버전이 실제로 제공되는 경우에만 필수 업데이트 UI(업데이트 실행 또는 창 닫기→프로그램 종료)가 적용됩니다.
+- `latest.json`, 공개 릴리즈, 중앙 Control 설정은 **별도 승인 없이 변경하지 않습니다**.
+- 공식 설치 파일은 서명 및 SHA-256 무결성 검증 계약을 따릅니다.
+
+## 관련 자료
+
+- [현재 공지사항](https://github.com/Peter-msk/Sunrise_capture/blob/main/notice.txt)
+- [공식 릴리즈 목록](https://github.com/Peter-msk/Sunrise_capture/releases)
+- [중앙 Control 정책 저장소](https://github.com/Peter-msk/Sunrise_Control)
 
 ---
 Copyright © 2026 Sunrise Group. All rights reserved.

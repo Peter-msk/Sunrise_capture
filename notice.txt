@@ -1,9 +1,19 @@
-Sunrise Capture v4.2.0
+Sunrise Capture 공지사항 (2026-10-28)
 
-현재 최신 버전: v4.2.0
+[개발 기준본] v4.2.1
+[현재 공개 설치본] v4.2.0
+[배포 상태] v4.2.1 소스 검증 완료 / Windows 실빌드·설치·GUI 동적검증 및 정식 배포 전
 
-- Sunrise Control v1 중앙 실행/업데이트 정책을 정식 적용했습니다.
-- 새 버전 발견 시 업데이트 진행 또는 닫기 후 프로그램 종료 두 경로만 제공합니다.
-- 기존 installer 업데이트·SHA256·signed updater 계약은 유지합니다.
-- 캡처·편집·녹화·네트워크 Save As 안정화 기능을 그대로 유지합니다.
-- OCR 및 개인정보 자동 가림 기능은 이번 버전에 포함하지 않습니다.
+v4.2.1 개발 기준본 주요 변경:
+- 전후 화면 비교: 동일 영역의 변경 전·후 화면을 비교하고 변화 영역을 표시합니다.
+- 일반 캡처 오류는 작업을 막지 않는 비모달 알림으로 처리합니다.
+- Sunrise Control v1/revision 2를 재점검하고, 네트워크 장애·유효 캐시 없음 상황의 업데이트 기본값을 차단(block)으로 맞췄습니다.
+- CMD-only 빌드 및 PowerShell/PS1 미사용 정책을 유지합니다.
+
+현재 Sunrise Control의 Sunrise Capture 정책: operation=allow / update=block / minimum_version=공란.
+따라서 앱 실행은 허용되나 업데이트는 중지 중입니다.
+이번 공지 및 README 갱신은 v4.2.1 Setup 배포나 자동 업데이트를 의미하지 않습니다.
+최신 공개 설치본은 GitHub Releases의 v4.2.0입니다.
+향후 v4.2.1 Windows 빌드·설치 검증과 별도 배포 승인 후 정식 출시 여부를 안내하겠습니다.
+
+공식 릴리즈: https://github.com/Peter-msk/Sunrise_capture/releases
